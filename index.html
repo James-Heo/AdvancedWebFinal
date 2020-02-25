@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge"
+        http-equiv="X-UA-Compatible">
+  <title>Final Project: JAMES HEO</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter:700|Lato:300,300i,400,400i,700,700i,900&display=swap"
+        rel="stylesheet">
+  <link href="styles.css"
+        rel="stylesheet">
+  <script defer
+        src="main.js"></script>
+</head>
+<body>
+      <div class='Rectangle'></div>
+      <div class=About-Space>
+            <h1 class = "About-Me">About James Heo</h1>
+
+            <div class="flex-container-about">
+                  <div class='center-img'>
+                        <img class="Image-Circle" src="images\My Head Shot.jpg" alt="My Headshot">
+                  </div>
+
+                  <p class="About-Bio">Aliquam quis imperdiet lectus. Nam volutpat nibh et nisl congue, et vehicula massa scelerisque. Praesent hendrerit dictum odio, vitae vestibulum est efficitur id. Vivamus in enim laoreet, sodales sem eu, suscipit ante.</p>
+   
+            </div>
+      </div>
+      <div class='resume-section'>      
+
+            <h2 class='My-Resume'>My Resume</h2>
+            
+            <p class="Resume-Obj">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis ornare neque. Etiam metus nisl, consectetur sed congue in, sodales eu mauris. 
+                  Suspendisse tincidunt volutpat urna, id eleifend lacus porta vitae. Cras eget elementum leo. Nulla quis rhoncus arcu, id dictum felis.
+            </p>
+
+            <div class='flex-container-big'>
+                  <div class="flex-container-resume">
+                        <img class="Image-Company" src="images\TB.png" alt="TB Logo">
+                  </div>
+                  <div class = 'flex-container-desc'>
+                        <h3 class="Job-Title">Web Development Intern</h3>
+                        <p class="Company-Name">Today's Business</p>
+                        <p class="Years">2019 - 2019</p>
+                        <button onclick="myFunction()" class='show-more-area' id='myBtn'><p class="SHOW-MORE">SHOW MORE<i class="fas fa-chevron-right"></i></p></button>
+
+                  </div>
+            </div>
+
+            <span id='dots'></span>
+
+            <span id='more'>
+                  <ul>
+                        <li class='point-1'>Provide ongoing support and maintenance on clients’ websites.</li>
+                        <li class='point-1'>Assist the website development team with new and existing WordPress website projects.</li>
+                        <li class='point-1'>Assist with internal maintenance tickets for client websites.</li>
+                        <li class='point-1'>Perform needed website audits for areas of improvement as requested.</li>
+                        <li class='point-1'>Assist the website team with structured tasks and project completion.</li>
+                  </ul>
+            </span>
+                  <div class='line'></div>
+            
+            <div class='flex-container-big'>      
+                  <div class="flex-container-resume">
+
+                        <img class="Image-Company" src="images\rutgers-shield.png" alt="Rutgers Logo">
+                  </div>
+                  <div class = 'flex-container-desc'>
+                        <h3 class="Job-Title">Support Specialist</h3>
+                        <p class="Company-Name">Rutgers Digital Classroom Services</p>
+                        <p class="Years">2017 - 2019</p>
+                        <button onclick="myFunction2()" class='show-more-area' id='myBtn2'><p class="SHOW-MORE">SHOW MORE<i class="fas fa-chevron-right"></i></p></button>
+                  </div>
+            </div>
+
+
+            <span id="dots2"></span>
+
+            <span id='more2'>
+                  <ul>
+                        <li class='point-2'>Perform regular assistance and fixing any issues for Rutgers Professors having technical difficulties regarding devices within their respective classrooms.</li>
+                        <li class='point-2'>Maintain classroom systems regularly to limit future problems and solve any issues if encountered.</li>
+                        <li class='point-2'>Write in-depth reports detailing all relevant activities in an organized manner.</li>
+                  </ul>
+
+            </span>
+
+                  <div class='line'></div>
+
+            <div class='flex-container-big'>
+
+                  <div class="flex-container-resume">
+                        
+                        <img class="Image-Company" src="images\rutgers-shield.png" alt="Rutgers Logo">
+
+                  </div>
+
+                  <div class = 'flex-container-desc'>
+                        <h3 class="Job-Title">Director of Web Dev</h3>
+                        <p class="Company-Name">ABCD Company</p>
+                        <p class="Years">1999 - 2010</p>
+                        <button onclick="myFunction3()" class='show-more-area' id='myBtn3'><p class="SHOW-MORE">SHOW MORE<i class="fas fa-chevron-right"></i></p></button>
+
+                  </div>
+            </div>
+
+            <span id="dots3"></span>
+
+            <span id='more3'>
+                  <ul>
+                        <li class='point-3'>Aliquam quis imperdiet lectus. Nam volutpat nibh et nisl congue, et vehicula.</li>
+                        <li class='point-3'>Aliquam quis imperdiet lectus. Nam volutpat nibh et nisl congue, et vehicula.</li>
+                        <li class='point-3'>Aliquam quis imperdiet lectus. Nam volutpat nibh et nisl congue, et vehicula.</li>
+                  </ul>
+            </span>
+
+      </div>
+
+      <div class="Contact-Area">
+            <h2 class='Contact-Me'>Contact Me</h2>
+
+            <form action="" class="form" id="js-form">
+
+                  <div class='grid-container'>
+
+                        <label> Your First Name:
+                        <input class="firstName" type="text" name="first name" id="js-name" placeholder="John">
+                        </label>
+                        
+                        <label> Your Last Name:
+                              <input class="lastName" type="text" name="last name" id="js-name-last" placeholder="Smith">
+                        </label>
+                        
+                        <label> Your Email Address:
+                              <input class="emailAdd" type="text" name="email" id="js-email" placeholder="john@email.com">
+                        </label>
+                        
+                        <label>Your Phone Number:
+                              <input class="pNum" type="text" name="phone" id="js-phone" placeholder="(732)555-0123">
+                        </label>
+                  
+                  </div>
+
+                  <label class='textarea-label'>Reason For Contact:
+                        <textarea class="form__textarea" name="message" cols="10" rows="5" id="js-msg"></textarea>
+                  </label>
+                  <button type="submit" id="js-submit" class="SEND">SEND</button>
+                        
+            </form>
+      </div>
+</body>
+</html>

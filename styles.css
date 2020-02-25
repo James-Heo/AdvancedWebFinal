@@ -1,0 +1,1082 @@
+.Rectangle {
+    width: 350px;
+    height: 13px;
+    background-color: #9fd199;
+    margin: 0 auto;
+}
+
+.About-Space {
+    width: 350px;
+    height: 783px;
+    background-color: rgba(7, 7, 7, 0.48);
+    margin: auto;
+    background-image: url("images/photo-1504966981333-1ac8809be1ca.jpg");/*unsure if background image here is necessary but added one just in case*/
+  }
+
+.About-Me {
+    width: 318px;
+    height: 110px;
+    font-family: Bitter;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f0f0f0;
+    padding-top: 62px;
+    margin: auto;
+}
+
+.center-img{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Image-Circle {
+    width: 116px;
+    height: 116px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border: solid 1px #231528;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.About-Bio {
+    margin-left: 16px;
+    width: 318px;
+    height: 416px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: white;
+}
+
+.resume-section{
+    width: 350px;
+    height: auto;
+    margin: auto;
+}
+
+.My-Resume {
+    width: 315px;
+    height: 65px;
+    font-family: Bitter;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #575159;
+}
+
+.Resume-Obj {
+    margin-left: 20px;
+    width: 315px;
+    height: 294px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #575159;
+}
+
+.Image-Company {
+    display: none;
+}
+
+.Job-Title {
+    width: 318px;
+    height: 40px;
+    font-family: Bitter;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #575159;
+    margin: 0 0 0 0;
+    padding-top: 20px;
+}
+
+.Company-Name {
+    width: 318px;
+    height: 31px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #575159;
+    margin: 0 0 0 0;
+}
+  
+.Years {
+    width: 318px;
+    height: 19px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #575159;
+    margin: 0 0 0 0;
+}
+  
+.SHOW-MORE {
+    width: 315px;
+    height: 19px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #92719e;
+}
+
+.show-more-area{
+    background-color: white;
+    width: 315px;
+    height: 19px;
+    border: none;
+    margin: 0 0 0 0;
+}
+
+#myBtn{
+    width: 315px;
+    height: 19px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #92719e;
+}
+
+#myBtn2{
+    width: 315px;
+    height: 19px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #92719e;
+}
+
+#myBtn3{
+    width: 315px;
+    height: 19px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #92719e;
+}
+
+#more{
+    display: none;
+}
+
+#more2{
+    display: none;
+}
+
+#more3{
+    display: none;
+}
+
+.line {
+    width: 316px;
+    height: .05px;
+    border: solid 1px #979797;
+    margin-top: 20px;
+}
+
+li{
+    width: 298px;
+    height: 72px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #575159;
+}
+
+.hideContent {
+    overflow: hidden;
+    line-height: 1em;
+    height: 2em;
+}
+
+.point-1{
+    padding-bottom: 15px;
+}
+
+.point-2{
+    padding-bottom: 50px;
+}
+
+.point-3{
+    padding-bottom: 10px;
+}
+
+/*DROP DOWN ARROW DOES NOT WORK*/
+.fa-chevron-right {
+    width: 30px;
+    height: 13px;
+    /*font-family: FontAwesome5FreeSolid;*/
+    font-size: 12px;
+    /*font-weight: normal;*/
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #92719e;
+}
+
+.Contact-Area{
+    width: 350px;
+    height: 1132px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    background-color: #9fd199;
+    margin: auto;
+}
+
+.Contact-Me {
+    width: 312px;
+    height: 65px;
+    font-family: Bitter;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #575159;
+}
+
+label{
+    display: block; 
+    margin: 0 auto;
+    padding-bottom: 90px;
+    width: 309.4px;
+    height: 29px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #575159;
+}
+
+input {
+    width: 315.3px;
+    height: 55px;
+    border-radius: 5px;
+    border: solid 2px #b6b5b7;
+    background-color: #fffefe;
+}
+
+::placeholder {
+    width: 304.1px;
+    height: 24px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #b8b8b8;
+}
+
+textarea{
+    width: 316px;
+    height: 248px;
+    border-radius: 5px;
+    border: solid 2px #b6b5b7;
+    background-color: #fffefe;
+}
+
+button{
+    width: 318px;
+    height: 75px;
+    border-radius: 5px;
+    background-color: #575159;
+    display: block;
+    margin: 0 auto;
+} 
+
+.SEND {
+    width: 318px;
+    height: 74px;
+    font-family: Lato;
+    font-size: 26px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #e8e8e8;
+    margin-top: 200px;
+    border: none;
+}
+  
+
+@media screen and (min-width: 768px) {
+
+    .Rectangle {
+        width: 768px;
+        height: 13px;
+        background-color: #9fd199;
+        margin: 0 auto;
+    }
+
+    .About-Space {
+        width: 768px;
+        height: 862px;
+        background-color: rgba(7, 7, 7, 0.48);
+    }
+
+    .About-Me {
+        width: 700px;
+        height: 81px;
+        font-family: Bitter;
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #f0f0f0;
+        margin: auto;
+        padding-top: 40px;
+    }
+
+    .Image-Circle {
+        width: 253px;
+        height: 253px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        border: solid 1px #231528;
+        border-radius: 50%;
+        margin-top: 49px;
+    }
+
+    .About-Bio {
+        width: 699px;
+        height: 377px;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.63;
+        letter-spacing: normal;
+        color: white;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .resume-section{
+        width: 768px;
+        height: auto;
+        margin: auto;
+    }
+
+    .My-Resume {
+        width: 584px;
+        height: 65px;
+        font-family: Bitter;
+        font-size: 48px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+        text-align: left;
+        padding-left: 37px;
+    }
+
+    .Resume-Obj {
+        width: 699px;
+        height: 262px;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #575159;
+        padding-left: 20px;
+    }
+
+    .flex-container-big{
+        display: flex;
+        margin: auto;
+        padding-top: 42px;
+    }
+
+    .flex-container-resume{
+        display: flex;
+        margin: auto;
+    }
+
+    .flex-container-desc{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-container-desc > p{
+        text-align: left;
+    }
+
+    .Image-Company {
+        display: inline;
+        width: 146px;
+        height: 146px;
+        border: solid 1px #979797;
+        border-radius: 50%;
+    }
+
+    .Job-Title {
+        width: 561px;
+        height: 41px;
+        font-family: Bitter;
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+        text-align: left;
+    }
+
+    .Company-Name {
+        width: 560px;
+        height: 25px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+        text-align: left;
+    }
+
+    .Years {
+        width: 418px;
+        height: 22px;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+        text-align: left;
+    }
+
+    .SHOW-MORE {
+        width: 132px;
+        height: 19px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #92719e;
+    }
+
+    .show-more-area{
+        background-color: white;
+        width: 315px;
+        height: 19px;
+        border: none;
+        margin: 0 0 0 0;
+    } 
+
+    #myBtn{
+        width: 127px;
+        height: 19px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #92719e;
+        margin-top: 25px;
+    }
+
+    #myBtn2{
+        width: 127px;
+        height: 19px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #92719e;
+        margin-top: 25px;
+    }
+
+    #myBtn3{
+        width: 127px;
+        height: 19px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #92719e;
+        margin-top: 25px;
+    }
+
+    li{
+        width: 661px;
+        height: 72px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.7;
+        letter-spacing: normal;
+        color: #575159;    
+    }
+
+    .point-2{
+        padding-bottom: 15px;
+    }
+
+    .point-3{
+        padding-bottom: 30px;
+    }
+
+    .line {
+        width: 698px;
+        height: .05px;
+        border: solid 1px #979797;
+    }
+
+    .Contact-Area{
+        width: 768px;
+        height: 1176px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+        background-color: #9fd199;
+    }
+
+    .Contact-Me {
+        width: 700px;
+        height: 81px;
+        font-family: Bitter;
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+        text-align: left;
+        padding-left: 37px;
+    }
+
+    label{
+        width: 684.4px;
+        height: 29px;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+    }
+
+    input{
+        width: 697.5px;
+        height: 55px;
+        border-radius: 5px;
+        border: solid 2px #b6b5b7;
+        background-color: #fffefe;      
+    }
+
+    ::placeholder{
+        width: 672.7px;
+        height: 24px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #b8b8b8;
+    }
+
+    textarea{
+        width: 698px;
+        height: 248px;
+        border-radius: 5px;
+        border: solid 2px #b6b5b7;
+        background-color: #fffefe;
+    }
+
+    .SEND{
+        width: 698px;
+        height: 74px;
+        font-family: Lato;
+        font-size: 26px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #e8e8e8;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .Rectangle {
+        width: 1439px;
+        height: 13px;
+        background-color: #9fd199;
+        margin: 0 auto;
+    }
+
+    .About-Space {
+        width: 1440px;
+        height: 862px;
+        background-color: rgba(7, 7, 7, 0.48);
+    }
+
+    .About-Me {
+        width: 1179px;
+        height: 109px;
+        font-family: Bitter;
+        font-size: 80px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #f0f0f0;
+        text-align: left;
+        margin: auto;
+        padding-top: 29px;
+    }
+
+    .flex-container-about{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .center-img{
+        text-align: right;
+        margin: 0 auto;
+    }
+
+    .Image-Circle {
+        width: 440px;
+        height: 440px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        border: solid 1px #231528;
+        border-radius: 50%;
+        margin-top: 69px;
+        margin-right: 132px;
+    }
+
+    .About-Bio {
+        width: 699px;
+        height: 377px;
+        font-family: Lato;
+        font-size: 40px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: white;
+        margin-left: 134px;
+        margin-top: 100px;
+    }
+
+    .resume-section{
+        width: 1440px;
+        height: auto;
+        margin: auto;
+    }
+
+    .My-Resume {
+        width: 584px;
+        height: 81px;
+        font-family: Bitter;
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+        text-align: left;
+        margin-left: 131px;
+        margin-top: 98px;
+        padding-left: 0px;
+    }
+
+    .Resume-Obj {
+        width: 1174px;
+        height: 262px;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: normal;
+        color: #575159;
+        padding-left: 20px;
+        margin: auto;
+    }
+
+
+    .flex-container-big{
+        display: flex;
+        margin-left: 131px;
+        padding-top: 42px;
+    }
+
+    .flex-container-resume{
+        display: flex;
+        margin: 0 0;
+    }
+
+    .flex-container-desc{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .flex-container-desc > p{
+        text-align: left;
+    }
+
+    .Image-Company {
+        display: inline;
+        width: 146px;
+        height: 146px;
+        border: solid 1px #979797;
+        border-radius: 50%;
+    }
+
+    .Job-Title {
+        width: 700px;
+        height: 36px;
+        font-family: Bitter;
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+        padding-top: 0px;
+    }
+
+    .Company-Name {
+        width: 699px;
+        height: 25px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+        padding-top: 10px;
+    }
+
+    .Years {
+        width: 418px;
+        height: 22px;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+        padding-top: 10px;
+    }
+
+    .SHOW-MORE {
+        width: 132px;
+        height: 19px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #92719e;
+        padding-top: 12px;
+    }
+
+    .line {
+        width: 1178px;
+        height: 1px;
+        border: solid .05px #979797;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    #myBtn{
+        width: 127px;
+        height: 19px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #92719e;
+        margin-top: 25px;
+    }
+
+    #myBtn2{
+        width: 127px;
+        height: 19px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #92719e;
+        margin-top: 25px;
+    }
+
+    #myBtn3{
+        width: 127px;
+        height: 19px;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #92719e;
+        margin-top: 25px;
+    }
+
+    .point-1{
+        padding-bottom: 0px;
+    }
+    
+    .point-2{
+        padding-bottom: 0px;
+    }
+    
+    .point-3{
+        padding-bottom: 0px;
+    }
+
+    li{
+        width: 960px;
+        height: 72px;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #575159;  
+        margin-left: 120px;
+    }
+
+
+    .Contact-Area{
+        width: 1440px;
+        height: 1176px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+        background-color: #9fd199;
+    }
+
+    .Contact-Me {
+        width: 891px;
+        height: 81px;
+        font-family: Bitter;
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+        text-align: left;
+        padding-left: 127px;
+        padding-top: 68px;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 580px 580px;
+        grid-column-gap: 18px;
+        padding-left: 130px;
+        grid-template-areas: "t1 t2"
+                             "b1 b2";
+    }
+
+    label{
+        width: 571.8px;
+        height: 29px;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+    }
+
+    input{
+        width: 582.8px;
+        height: 55px;
+        border-radius: 5px;
+        border: solid 2px #b6b5b7;
+        background-color: #fffefe;     
+    }
+
+    ::placeholder{
+        width: 562.1px;
+        height: 24px;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #b8b8b8;      
+    }
+
+    .textarea-label{
+        width: 571.8px;
+        height: 29px;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #575159;
+        margin: 0;
+        margin-left: 132px;
+    }
+
+    textarea{
+        width: 1179px;
+        height: 248px;
+        border-radius: 5px;
+        border: solid 2px #b6b5b7;
+        background-color: #fffefe;
+    }
+
+    /* .emailAdd{
+        grid-area: b2;
+    }
+
+    .pNum{
+        grid-area: b1;
+    } */
+
+    /*tried to switch number and email order in contact form by using grid-template-area but didn't work*/
+
+    .SEND{
+        width: 295px;
+        height: 74px;
+        font-family: Lato;
+        font-size: 26px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #e8e8e8;
+    }
+
+}
